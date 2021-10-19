@@ -9,15 +9,5 @@ struct Point2D
     int h;
 };
 
-
-void MBD_waterflow(const unsigned char * img, const unsigned char * seeds, unsigned char * distance, 
-    int height, int width);
-
-void geodesic_shortest(const unsigned char * img, const unsigned char * seeds, const unsigned char * destination, unsigned char * shortestpath, 
-                              int height, int width);
-
-void geodesic_shortest_all(const unsigned char * img, const unsigned char * seeds, const unsigned char * destination, unsigned char * shortestpath, 
-                              int height, int width);
-
 void MBD_cut(const unsigned char * img, const unsigned char * seeds, const unsigned char * destination, unsigned char * distance, 
                               int height, int width);
