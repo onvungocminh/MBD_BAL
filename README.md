@@ -20,11 +20,11 @@ Most contemporary supervised image segmentation methods do not preserve the init
 
 Compile the loss:
 ```bash
-python setup.py build_ext --inplace
+python setup.py build
 python setup.py install
 ```
 
-A short demo is also availuable in BALoss/demo.py:
+A short demo is also available in BALoss/demo.py:
 ```bash
 python demo.py
 ```
