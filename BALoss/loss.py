@@ -1,4 +1,4 @@
-def DAHU_loss(inputs, seed, labels):
+def MBDcut_loss(inputs, seed, labels):
     
     # inputs:  edge probability map
     # seed: initializated seed for inside and outside regions 
