@@ -28,11 +28,11 @@ def cross_entropy_loss2d(inputs, targets, cuda=True, balance=1.1):
 
 
 def MBDcut_loss(inputs, seed, labels):
-    
-    # inputs:  edge probability map
-    # seed: initializated seed for inside and outside regions 
-    # labels: boundary for each region 
-
+    """    
+    : inputs:  edge probability map
+    : seed: initializated seed for inside and outside regions 
+    : labels: boundary for each region 
+    """
 
     EPM = inputs.squeeze()
     labels = labels.squeeze()
