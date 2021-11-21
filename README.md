@@ -28,3 +28,6 @@ A short demo is also available in BALoss/demo.py:
 ```bash
 python demo.py
 ```
+
+## Some examples are given in this folder:
+https://drive.google.com/drive/folders/1ue2Eq_UGzY-21v7gUHVlhFIppn-orJFw?usp=sharing
