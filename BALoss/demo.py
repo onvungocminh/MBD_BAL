@@ -3,8 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import cv2
-import MBD
-from loss import *
+from BALoss import *
 import scipy.io
 from PIL import Image
 import pdb

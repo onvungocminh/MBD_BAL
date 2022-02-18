@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import cv2
-import MBD
+from . import MBD
 
 def cross_entropy_loss2d(inputs, targets, cuda=True, balance=1.1):
     """
